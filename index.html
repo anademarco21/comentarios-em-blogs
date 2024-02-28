@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentários em blogs</title>
+</head>
+<body>
+    <h1>Deixe um comentário</h1>
+    <form action="blogs.php" method="get" autocomplete="on">
+        <p>
+            <label for="User">Nome:</label>
+            <input type="text" name="User" id="User">
+        </p>
+        <p>
+            <label for="pass">E-mail:</label>
+            <input type="password" name="pass" id="pass">
+        </p>
+        <p>
+            <label for="Website">Website:</label>
+            <input type="text" name="Website" id="Website">
+        </p>
+        <p>Comentário:</p>
+        <p><textarea name="comentário" id="comentário" cols="50" rows="4"></textarea>
+        </p>
+        <p>Observação: Seu comentário será publicado após passar pelo moderador</p>
+        <button type="submit">Enviar Comentário</button>
+
+    </form>
+</body>
+</html>
